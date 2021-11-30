@@ -4,14 +4,34 @@
  */
 package monopoly;
 
-import java.awt.event.MouseEvent;
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
 
-/**
- *
- * @author belkh
- */
-public interface GestionAction {
-    public void gerer(MouseEvent e){
-        
-    }
+public class GestionAction extends Applet implements MouseMotionListener{
+   private int x;
+   private int y;
+
+   @Override
+   public void init() { 
+      super.init();
+      this.addMouseMotionListener(this);
+   }
+
+   @Override
+   public void mouseDragged(java.awt.event.MouseEvent e) {}
+
+   @Override
+   public void mouseMoved(MouseEvent e) {
+      x = e.getX();
+      y = e.getY();
+      repaint();
+      showStatus("x = "+x+" ; y = "+y);
+   }
+
+   @Override
+   public void paint(Graphics g) {
+      super.paint(g);
+      g.drawString("x = "+x+" ; y = "+y,20,20);
+   }
 }
