@@ -11,14 +11,14 @@ public class AddImage {
  public static void main(String[] args) {
   
      //Création de JFrame
-     JFrame frame = new JFrame("Plateau de jeu");
+     JFrame frame = new JFrame("plateau de jeu");
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-     frame.setSize(800,720);
+     frame.setSize(3000,3000);
      frame.setLocationRelativeTo(null);
      frame.setVisible(true);
      
      //URL de l'image
-     String imgUrl="plateau.png";
+     String imgUrl="plateau de jeu.png";
      ImageIcon icone = new ImageIcon(imgUrl);
   
      //Création de JLable avec un alignement gauche
