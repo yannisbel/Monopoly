@@ -4,10 +4,14 @@
  */
 package monopoly;
 
+import java.awt.event.MouseEvent;
+
 /**
  *
  * @author belkh
  */
 public interface GestionAction {
-    
+    public void gerer(MouseEvent e){
+        
+    }
 }
