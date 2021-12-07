@@ -13,13 +13,13 @@ public class AddImage {
      //Création de JFrame
      JFrame frame = new JFrame("plateau de jeu");
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-     frame.setSize(3000,3000);
+     frame.setSize(1500,1500);
      frame.setLocationRelativeTo(null);
      frame.setVisible(true);
      
      //URL de l'image
-     String imgUrl="plateau de jeu.png";
-     ImageIcon icone = new ImageIcon(imgUrl);
+     String imgUr="monopoly-classique-plateau.jpg";
+     ImageIcon icone = new ImageIcon(imgUr);
   
      //Création de JLable avec un alignement gauche
      JLabel jlabel = new JLabel(icone, JLabel.CENTER);
@@ -27,6 +27,8 @@ public class AddImage {
      // Création d'une zone de texte
      JLabel label = new JLabel("Joueur 1", JLabel.CENTER);
      frame.add(label);
+     frame.setVisible(true);
+     frame.setLocationRelativeTo(null);
      
   
      //ajouter les deux JLabel a JFrame

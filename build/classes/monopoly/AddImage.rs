@@ -1,0 +1,2 @@
+monopoly.Main
+AddImage
