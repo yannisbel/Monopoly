@@ -2,6 +2,9 @@
 
 This Java program implements the classic board game Monopoly. Players can roll dice, buy and sell properties, and engage in various game mechanics to bankrupt their opponents.
 
+Here is a quick introduction to the game we created:
+https://www.youtube.com/watch?v=BMW3V2mCx84
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
