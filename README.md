@@ -5,8 +5,7 @@ This Java program implements the classic board game Monopoly. Players can roll d
 Here is a quick introduction to the game we created:
 https://www.youtube.com/watch?v=BMW3V2mCx84
 
-![Screenshot of the Monopoly Game](Monopoly/images/monopoly_screenshot.png)
-*Screenshot of the Monopoly in-game*
+![Screenshot of the Monopoly Game](images/monopoly_screenshot.png)
 
 ## Table of Contents
 
